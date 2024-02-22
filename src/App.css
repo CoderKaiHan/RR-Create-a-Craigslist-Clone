@@ -17,11 +17,14 @@ img {
 .directory {
   grid-area: directory;
   border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .gallery {
   grid-area: gallery;
   border: 1px solid black;
+  /* display: flex; */
 }
 
 .help {
